@@ -1,0 +1,34 @@
+{
+  "name": "the-state-of-the-website",
+  "description": "The state of the website",
+  "author": "John Otander",
+  "version": "0.0.1",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node get-css.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johnotander/the-state-of-the-website.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnotander/the-state-of-the-website/issues"
+  },
+  "homepage": "https://github.com/johnotander/the-state-of-the-website",
+  "dependencies": {
+    "cssstats": "^1.8.0",
+    "csv-parse": "0.0.6",
+    "get-css": "^1.0.5",
+    "glob": "^5.0.10",
+    "scrutinize": "^1.3.4"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
