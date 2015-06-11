@@ -8,7 +8,7 @@
     "test": "test"
   },
   "scripts": {
-    "start": "node get-css.js",
+    "start": "node get-css.js && node cssstats.js",
     "test": "mocha test"
   },
   "repository": {
